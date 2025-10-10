@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Gontserrat';
-  src: url('src/assets/fonts/Gontserrat-Regular.ttf') format('truetype');
+  src: url('/fonts/Gontserrat-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
