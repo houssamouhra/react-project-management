@@ -1,9 +1,11 @@
-import Header from '@/components/UI/Header';
+import ProjectsSidebar from '@/components/layout/ProjectsSideBar';
 
 function App() {
   return (
     <>
-      <Header />
+      <div className='flex h-screen '>
+        <ProjectsSidebar />
+      </div>
     </>
   );
 }
