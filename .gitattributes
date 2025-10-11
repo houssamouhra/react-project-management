@@ -8,3 +8,5 @@
 *.gif binary
 *.ico binary
 *.ttf binary
+public/fonts/*.ttf -text
+

@@ -38,3 +38,10 @@
   font-weight: 300;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Gontserrat';
+  src: url('/fonts/Gontserrat-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
