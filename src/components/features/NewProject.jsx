@@ -1,4 +1,5 @@
 import Button from '@/components/UI/Button';
+import Input from '@/components/UI/Input';
 
 const NewProject = ({ onCancel }) => {
   return (
@@ -11,6 +12,11 @@ const NewProject = ({ onCancel }) => {
           <Button title='Save' />
         </li>
       </menu>
+      <form name='' action='' className='w-lg  flex flex-col gap-4 p-4 font-Gontserrat font-medium'>
+        <Input inputName={'Title'} name={'title'} />
+        <Input inputName={'Description'} name={'description'} />
+        <Input inputName={'Due Date'} name={'date'} type={'date'} />
+      </form>
     </div>
   );
 };
