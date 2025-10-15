@@ -6,10 +6,12 @@ const NewProject = ({ onCancel }) => {
     <div className='h-[95vh] mt-[5vh] mx-10 p-8 bg-stone-50 border rounded-t-xl border-stone-300  text-stone-700 shadow-2xl shadow-stone-300'>
       <menu className='flex items-center justify-end gap-4 my-4'>
         <li>
-          <Button title='Cancel' variant='cancel' onClick={onCancel} />
+          <Button variant='cancel' onClick={onCancel}>
+            Cancel
+          </Button>
         </li>
         <li>
-          <Button title='Save' />
+          <Button>Save</Button>
         </li>
       </menu>
       <div className='w-lg flex flex-col justify-start gap-5 mt-8 font-Gontserrat font-medium'>

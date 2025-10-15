@@ -4,15 +4,19 @@ import Button from '@/components/UI/Button';
 const Header = ({ onOpen }) => {
   return (
     <header className='flex-1 flex justify-center items-center'>
-      <div className='flex-1 flex flex-col justify-center items-center gap-4'>
-        <img className='w-22 h-22' src={ClipboardImg} alt='empty-clipboard' />
-        <h2 className='text-2xl font-semibold font-Gontserrat text-stone-600'>
-          No Project Selected
-        </h2>
-        <p className='text-lg font-normal font-Gontserrat text-stone-400'>
+      <div className='flex-1 flex flex-col font-Gontserrat justify-center items-center gap-3'>
+        <img
+          className='w-16 h-16 object-contain mx-auto'
+          src={ClipboardImg}
+          alt='empty-clipboard'
+        />
+        <h2 className='text-xl font-semibold text-stone-600'>No Project Selected</h2>
+        <p className='text-lg font-normal text-stone-400 mb-4'>
           Select a project or get started with a new one
         </p>
-        <Button onClick={onOpen} title={'Create new project'} />
+        <div className='mt-2'>
+          <Button onClick={onOpen}>Create new project</Button>
+        </div>
       </div>
     </header>
   );

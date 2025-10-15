@@ -1,4 +1,4 @@
-const Button = ({ title, symbole, variant = 'primary', className = '', ...props }) => {
+const Button = ({ children, symbole, variant = 'primary', className = '', ...props }) => {
   const baseStyle = 'font-Gontserrat font-semibold text-md px-4 py-2 cursor-pointer rounded-md';
 
   const variants = {
@@ -9,7 +9,7 @@ const Button = ({ title, symbole, variant = 'primary', className = '', ...props 
   return (
     <button {...props} className={`${baseStyle} ${variants[variant]} ${className}`}>
       {symbole}
-      <span>{title}</span>
+      {children}
     </button>
   );
 };

@@ -23,10 +23,11 @@ const ProjectsSidebar = () => {
         <div className='px-10'>
           <Button
             symbole={<Icon icon='pixel:plus-solid' width='1em' height='1em' />}
-            title={'Add Projects'}
             className='flex items-center gap-3'
             onClick={handleOpenProject}
-          />
+          >
+            Add Projects
+          </Button>
         </div>
         <ul></ul>
         <ul></ul>
