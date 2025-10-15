@@ -4,7 +4,7 @@ import Button from '@/components/UI/Button';
 const Header = ({ onOpen }) => {
   return (
     <header className='flex-1 flex justify-center items-center'>
-      <div className='flex-1 flex flex-col font-Gontserrat justify-center items-center gap-3'>
+      <div className='flex flex-col font-Gontserrat justify-center items-center gap-3'>
         <img
           className='w-16 h-16 object-contain mx-auto'
           src={ClipboardImg}
